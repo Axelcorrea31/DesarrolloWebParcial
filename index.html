@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafalgar</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .max-width-1200 {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero-section {
+            padding: 100px 0;
+            text-align: left;
+        }
+        .hero-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+        .hero-section img {
+            max-width: 100%;
+        }
+        .btn-consult {
+            background-color: #007bff;
+            color: white;
+        }
+        .services-section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .services-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .services-section p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: 40px;
+        }
+        .service-card {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-card img {
+            max-width: 50px;
+            margin-bottom: 20px;
+        }
+        .service-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+        .leading-section {
+            padding: 50px 0;
+            text-align: left;
+        }
+        .leading-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .leading-section p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .leading-section img {
+            max-width: 100%;
+        }
+        .download-section {
+            padding: 50px 0;
+            text-align: left;
+        }
+        .download-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .download-section p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .download-section img {
+            max-width: 100%;
+        }
+        .footer {
+            background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+            color: white;
+            padding: 50px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Trafalgar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Find a doctor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Apps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Virtual healthcare for you</h1>
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                <a href="#" class="btn btn-consult">Consult today</a>
+            </div>
+            <div class="col-md-6">
+                <img src="imagenes/logo.png" alt="Healthcare Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container max-width-1200">
+            <h2>Our services</h2>
+            <p>We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <img src="imagenes/lupa.jpg" alt="Search doctor">
+                        <h3>Search doctor</h3>
+                        <p>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <img src="imagenes/frasco.jpg" alt="Online pharmacy">
+                        <h3>Online pharmacy</h3>
+                        <p>Buy your medicines with our mobile application with a simple delivery system</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <img src="imagenes/lista.jpg" alt="Consultation">
+                        <h3>Consultation</h3>
+                        <p>Free consultation with our trusted doctors and get the best recommendations</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <img src="imagenes/detailsinfo.jpg" alt="Details info">
+                        <h3>Details info</h3>
+                        <p>Free consultation with our trusted doctors and get the best recommendations</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <img src="imagenes/botiquin.jpg" alt="Emergency care">
+                        <h3>Emergency care</h3>
+                        <p>You can get 24/7 urgent care for yourself and your children and your lovely family</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <img src="imagenes/libreta.jpg" alt="Tracking">
+                        <h3>Tracking</h3>
+                        <p>Track and save your medical history and health data</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-consult">Learn more</a>
+        </div>
+    </section>
+
+    <!-- Leading Healthcare Providers Section -->
+    <section class="leading-section">
+        <div class="container max-width-1200">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="imagenes/segundaimagen.png" alt="Leading Healthcare Illustration">
+                </div>
+                <div class="col-md-6">
+                    <h2>Leading healthcare providers</h2>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver</p>
+                    <a href="#" class="btn btn-consult">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Download Our Mobile Apps Section -->
+    <section class="download-section">
+        <div class="container max-width-1200">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Download our mobile apps</h2>
+                    <p>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedious form, long calls, or administrative hassle) and securely</p>
+                    <a href="#" class="btn btn-consult">Download</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagenes/tercerimagen.png" alt="Mobile Apps Illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container max-width-1200">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Trafalgar</h5>
+                        <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                        <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Find a doctor</a></li>
+                            <li><a href="#">Apps</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Region</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Indonesia</a></li>
+                            <li><a href="#">Singapore</a></li>
+                            <li><a href="#">Hongkong</a></li>
+                            <li><a href="#">Canada</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Help</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">Contact support</a></li>
+                            <li><a href="#">Instructions</a></li>
+                            <li><a href="#">How it works</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
