@@ -5,152 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trafalgar</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .max-width-1200 {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .hero-section {
-            padding: 100px 0;
-            text-align: left;
-        }
-        .hero-section h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-        }
-        .hero-section p {
-            font-size: 1.2rem;
-            color: #6c757d;
-        }
-        .hero-section img {
-            max-width: 100%;
-        }
-        .btn-consult {
-            background-color: #007bff;
-            color: white;
-        }
-        .services-section {
-            padding: 50px 0;
-            text-align: center;
-        }
-        .services-section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .services-section p {
-            font-size: 1rem;
-            color: #6c757d;
-            margin-bottom: 40px;
-        }
-        .service-card {
-            padding: 20px;
-            border-radius: 10px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        .service-card:hover {
-            transform: translateY(-10px);
-        }
-        .service-card img {
-            max-width: 50px;
-            margin-bottom: 20px;
-        }
-        .service-card h3 {
-            font-size: 1.25rem;
-            margin-bottom: 10px;
-        }
-        .service-card p {
-            font-size: 0.9rem;
-            color: #6c757d;
-        }
-        .leading-section {
-            padding: 50px 0;
-            text-align: left;
-        }
-        .leading-section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .leading-section p {
-            font-size: 1rem;
-            color: #6c757d;
-            margin-bottom: 20px;
-        }
-        .leading-section img {
-            max-width: 100%;
-        }
-        .download-section {
-            padding: 50px 0;
-            text-align: left;
-        }
-        .download-section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .download-section p {
-            font-size: 1rem;
-            color: #6c757d;
-            margin-bottom: 20px;
-        }
-        .download-section img {
-            max-width: 100%;
-        }
-        .footer {
-            background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-            color: white;
-            padding: 50px 0;
-        }
-        .footer a {
-            color: white;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Trafalgar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Find a doctor</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Apps</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="container max-width-1200">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="imagenes/LogoTT.png" alt="Logo" style="max-height: 40px; margin-right: 10px;">
+                Trafalgar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find a doctor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
 
     <!-- Hero Section -->
     <section class="hero-section container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h1>Virtual healthcare for you</h1>
-                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
-                <a href="#" class="btn btn-consult">Consult today</a>
-            </div>
-            <div class="col-md-6">
-                <img src="imagenes/logo.png" alt="Healthcare Illustration">
+        <div class="container max-width-1200">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Virtual healthcare for you</h1>
+                    <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
+                    <a href="#" class="btn btn-consult">Consult today</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="imagenes/logo.png" alt="Healthcare Illustration">
+                </div>
             </div>
         </div>
     </section>
@@ -204,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn btn-consult">Learn more</a>
+            <a href="#" class="btn btn-outline-primary">Learn more</a>
         </div>
     </section>
 
@@ -218,7 +123,7 @@
                 <div class="col-md-6">
                     <h2>Leading healthcare providers</h2>
                     <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliver</p>
-                    <a href="#" class="btn btn-consult">Learn more</a>
+                    <a href="#" class="btn btn-outline-primary">Learn more</a>
                 </div>
             </div>
         </div>
@@ -231,7 +136,7 @@
                 <div class="col-md-6">
                     <h2>Download our mobile apps</h2>
                     <p>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedious form, long calls, or administrative hassle) and securely</p>
-                    <a href="#" class="btn btn-consult">Download</a>
+                    <a href="#" class="btn btn-outline-primary">Download</a>
                 </div>
                 <div class="col-md-6">
                     <img src="imagenes/tercerimagen.png" alt="Mobile Apps Illustration">
