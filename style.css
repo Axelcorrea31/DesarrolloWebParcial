@@ -42,6 +42,15 @@ body {
     margin-bottom: 20px;
     font-weight: 700;
 }
+.services-section h2::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #000;
+    margin: 8px auto 0;
+    
+}
 .services-section p {
     font-size: 1rem;
     color: #6c757d;
@@ -83,9 +92,25 @@ body {
     padding: 50px 0;
     text-align: left;
 }
+.contenido {
+    padding-left: 100px;
+}
 .leading-section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+
+}
+.leading-section h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #000;
+    margin-top: 8px;
+    left: 0;
+    top: 100%;
 }
 .leading-section p {
     font-size: 1rem;
@@ -102,6 +127,19 @@ body {
 .download-section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+
+}
+.download-section h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #000;
+    margin-top: 8px;
+    left: 0;
+    top: 100%;
 }
 .download-section p {
     font-size: 1rem;
