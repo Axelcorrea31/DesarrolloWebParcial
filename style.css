@@ -128,7 +128,7 @@ body {
     font-size: 2rem;
     margin-bottom: 20px;
     font-weight: 700;
-    line-height: 1.5; /* Ajusta el espaciado entre líneas */
+    line-height: 1.5; 
 
 }
 .download-section h2::after{
@@ -160,4 +160,7 @@ body {
 }
 .footer a:hover {
     text-decoration: underline;
+}
+.footer ul li {
+    margin-bottom: 10px;
 }
